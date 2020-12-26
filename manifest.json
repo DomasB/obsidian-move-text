@@ -1,0 +1,8 @@
+{
+  "id": "obsidian-move-text",
+  "name": "Move text",
+  "version": "1.0.0",
+  "description": "Move lines of text or selection",
+  "isDesktopOnly": false,
+  "js": "main.js"
+}

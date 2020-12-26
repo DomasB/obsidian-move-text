@@ -1,0 +1,27 @@
+{
+  "name": "obsidian-move-text",
+  "version": "1.0.0",
+  "description": "Obsidian plugin to move text line or text selection",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "rollup --config rollup.config.js -w",
+    "build": "rollup --config rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@rollup/plugin-typescript": "^8.1.0",
+    "obsidian": "https://github.com/obsidianmd/obsidian-api/tarball/master",
+    "rollup": "^2.35.1",
+    "rollup-plugin-copy": "^3.3.0",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.3"
+  },
+  "keywords": [
+    "obsidian"
+  ],
+  "author": "Domas Briedis",
+  "license": "ISC"
+}
